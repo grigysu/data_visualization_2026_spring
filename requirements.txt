@@ -10,3 +10,7 @@ widgetsnbextension>=3.5
 ipython>=7.16
 nbformat>=4.2
 notebook>=6.0
+
+# Dashboard
+dash>=2.17.0
+dash-bootstrap-components>=1.6.0
