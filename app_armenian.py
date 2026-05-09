@@ -714,7 +714,9 @@ def update_heatmap(_, pathname, top_n):
     n = int(top_n) if top_n and 5 <= int(top_n) <= 50 else 20
     return make_heatmap(n)
 
-
+def main():
+    app.run(debug=True, port=8051)
+    
 # ── 8.  Entry point ───────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    app.run(debug=True, port=8051)
+    main()
