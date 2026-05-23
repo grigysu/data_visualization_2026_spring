@@ -423,6 +423,7 @@ page_analysis = dbc.Container([
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.FLATLY],
                 suppress_callback_exceptions=True)
+server = app.server  # gunicorn entrypoint
 app.title = "Canadian Immigration Dashboard"
 
 SIDEBAR_W = "240px"
