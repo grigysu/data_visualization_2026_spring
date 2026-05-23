@@ -715,7 +715,7 @@ def update_heatmap(_, pathname, top_n):
     return make_heatmap(n)
 
 def main():
-    app.run(debug=True, port=8051)
+    app.run(debug=False, port=8051)
     
 # ── 8.  Entry point ───────────────────────────────────────────────────────────
 if __name__ == "__main__":
